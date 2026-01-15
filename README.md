@@ -1,16 +1,23 @@
-# React + Vite
+# 🧩 Admin Dashboard – React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Admin Dashboard** built using **React.js** to manage analytics, users, e-commerce data, and business insights efficiently. This dashboard provides a clean UI, reusable components, and interactive data visualizations suitable for real-world admin panels and SaaS products.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 **Analytics Overview** – Revenue, active users, orders, and page views
+- 📈 **Interactive Charts** – Revenue vs Expense, category-wise sales distribution
+- 🧑‍💼 **User Management** – View and manage platform users
+- 🛒 **E-commerce Module** – Orders, inventory, and transactions
+- 🔍 **Global Search** – Quick search across dashboard data
+- 🔔 **Notifications & Alerts**
+- 🎨 **Modern UI/UX** – Clean layout with responsive design
+- ⚡ **Reusable Components** – Scalable and maintainable architecture
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **Charts & Graphs:** Recharts
+- **Icons:** Lucide Icons
+- **State Management:** React Hooks / Context API
+- **Build Tool:** Vite
