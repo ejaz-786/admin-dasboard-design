@@ -9,6 +9,7 @@ import {
   Settings,
   Sun,
 } from "lucide-react";
+import ThemeToggle from "../themToggle/ThemeToggle";
 
 const Header = ({ sideBarCollapsed, onToggleSideBar }) => {
   return (
@@ -56,9 +57,10 @@ const Header = ({ sideBarCollapsed, onToggleSideBar }) => {
             <span className="text-sm font-medium">New</span>
           </button>
           {/* Toggle  */}
-          <button className="rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors p-2.5">
+          {/* <button className="rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors p-2.5">
             <Sun className="w-4 h-4" />
-          </button>
+          </button> */}
+          <ThemeToggle />
           {/* Notification  */}
           <button className="p-2.5 relative rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
             <Bell className="w-5 h-5" />
