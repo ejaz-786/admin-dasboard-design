@@ -11,9 +11,9 @@ export default function ThemeToggle() {
       className="rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors p-2.5"
     >
       {theme === "dark" ? (
-        <Sun className="w-4 h-4 text-yellow-400" />
+        <Sun className="w-4 h-4 " />
       ) : (
-        <Moon className="w-4 h-4 text-gray-800" />
+        <Moon className="w-4 h-4 " />
       )}
     </button>
   );
